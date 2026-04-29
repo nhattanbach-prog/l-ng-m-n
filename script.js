@@ -2,9 +2,9 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 const catImg = new Image();
-catImg.src = "repo/min2.png";
+catImg.src = "min2.png";
 const combImg = new Image();
-combImg.src = "repo/luoc3.png";
+combImg.src = "luoc3.png";
 
 let isDragging = false;
 let mouseX = 300;
@@ -17,14 +17,14 @@ let score = 0;
 
 // Special & danger
 let specialImg = new Image();
-specialImg.src = "repo/minnhin.png";
+specialImg.src = "minnhin.png";
 let showSpecial = false;
 let specialTimer = null;
 let specialActiveTime = null;
 let specialDisappearTimer = null;
 
 let dangerImg = new Image();
-dangerImg.src = "repo/ngap.png";
+dangerImg.src = "ngap.png";
 let showDanger = false;
 let dangerScale = 0.1;
 
