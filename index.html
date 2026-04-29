@@ -2,10 +2,27 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Chảy Lông Cho Mín</title>
+  <title>Game Lược Mèo</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    canvas {
+      border: 2px solid black;
+      background: white;
+    }
+  </style>
 </head>
 <body>
-  <canvas id="gameCanvas" width="600" height="400" style="border:1px solid black;"></canvas>
+  <!-- Canvas để game vẽ -->
+  <canvas id="gameCanvas" width="600" height="400"></canvas>
+
+  <!-- Load script -->
   <script src="script.js"></script>
 </body>
 </html>
